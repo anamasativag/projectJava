@@ -1,0 +1,10 @@
+/target/
+# compiled output  
+/src/main/ui/dist  
+/src/main/ui/tmp  
+/src/main/ui/out-tsc  
+  
+# dependencies  
+/src/main/ui/node_modules  
+  
+ 

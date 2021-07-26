@@ -1,0 +1,39 @@
+<app-header></app-header>
+<div> <h2><a href="profesores">Inicio</a></h2>  </div>
+<div class="mrgnbtm">
+    <div class="container">
+        <h2>Asignaturas</h2>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>ID Asignatura</th>
+              <th>Asignatura</th>
+              <th>Grado</th>
+              <th>Salon</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let asignatura of asignaturas; let i = index">
+              <td>{{i + 1}}</td>
+              <td> <a href="estudiantes/{{asignatura.id}}">{{asignatura.name}}</a> </td>
+              <td >
+                <ul>
+                   
+                  {{cursosAsig[i].grado}}
+                   
+                </ul>
+              </td>
+              <td >
+                <ul>
+                   
+                  {{cursosAsig[i].salon}}
+                    
+                </ul>
+              </td>
+              <!-- <td>{{curso.salon}}</td> -->
+              <!-- <td>{{user.email}}</td> -->
+            </tr>
+          </tbody>
+        </table>
+      </div>
+</div>
