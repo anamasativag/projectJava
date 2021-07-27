@@ -1,6 +1,6 @@
 # PRUEBA TÉCNICA BACKEND JAVA
 
-Proyecto basado en el tutorial Angular With Java, para el desarrollo de un sistema backend java con frontend angular.
+Proyecto basado en el tutorial [Angular With Java](https://medium.com/bb-tutorials-and-thoughts/how-to-develop-and-build-angular-app-with-java-backend-87fb603c6e17), para el desarrollo de un sistema backend java con frontend angular.
 
 ## Compilación backend
 
