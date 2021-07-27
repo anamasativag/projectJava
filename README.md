@@ -1,2 +1,7 @@
-# angular-java-example
-This is an example project of angular with java
+# PRUEBA TÉCNICA BACKEND JAVA
+
+Proyecto basado en el tutorial Angular With Java, para el desarrollo de un sistema backend java con frontend angular.
+
+## Compilación
+
+´´´ mvn clean install ´´´
